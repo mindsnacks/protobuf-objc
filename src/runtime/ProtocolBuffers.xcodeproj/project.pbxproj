@@ -33,7 +33,7 @@
 		63BD8BFB15FFAC3A0010D8DA /* UnittestLiteImportsNonlite.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B04445F1469EFD500BB156C /* UnittestLiteImportsNonlite.pb.m */; };
 		63BD8BFC15FFAC3A0010D8DA /* UnittestNoGenericServices.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0444661469F01800BB156C /* UnittestNoGenericServices.pb.m */; };
 		63BD8BFF15FFAC3A0010D8DA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B03FF612517CA00087887C /* SenTestingKit.framework */; };
-		63BD8C0915FFACF70010D8DA /* libProtocolBuffersTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 726B877F15E3C3C300D064DC /* libProtocolBuffersTouch.a */; };
+		63BD8C0915FFACF70010D8DA /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 726B877F15E3C3C300D064DC /* libProtocolBuffers.a */; };
 		726B878015E3C3C300D064DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		726B87A515E3C41900D064DC /* Descriptor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CBB7FC126CBD5100354923 /* Descriptor.pb.m */; };
 		726B87A615E3C42000D064DC /* ConcreteExtensionField.m in Sources */ = {isa = PBXBuildFile; fileRef = C586262612668BCF00204EE1 /* ConcreteExtensionField.m */; };
@@ -92,6 +92,10 @@
 		8B0444671469F01800BB156C /* UnittestNoGenericServices.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0444661469F01800BB156C /* UnittestNoGenericServices.pb.m */; };
 		AA747D9F0F9514B9006C5449 /* ProtocolBuffers_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ProtocolBuffers_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		B39F8B6216D7069100BCF715 /* golden_message in Resources */ = {isa = PBXBuildFile; fileRef = B39F8B6016D7069100BCF715 /* golden_message */; };
+		B39F8B6316D7069100BCF715 /* golden_message in Resources */ = {isa = PBXBuildFile; fileRef = B39F8B6016D7069100BCF715 /* golden_message */; };
+		B39F8B6416D7069100BCF715 /* golden_packed_fields_message in Resources */ = {isa = PBXBuildFile; fileRef = B39F8B6116D7069100BCF715 /* golden_packed_fields_message */; };
+		B39F8B6516D7069100BCF715 /* golden_packed_fields_message in Resources */ = {isa = PBXBuildFile; fileRef = B39F8B6116D7069100BCF715 /* golden_packed_fields_message */; };
 		C55591B1127A04EF002343CA /* PBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F36E041275FA5A00013BB4 /* PBArray.m */; };
 		C57A9FE4125276A400726D16 /* UnittestCustomOptions.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = C57A9FE3125276A400726D16 /* UnittestCustomOptions.pb.m */; };
 		C586262012668B9F00204EE1 /* Bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = C586261F12668B9F00204EE1 /* Bootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,9 +185,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63BD8C0415FFAC3A0010D8DA /* UnitTests copy.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests copy.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63BD8C0515FFAC3B0010D8DA /* UnitTests copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UnitTests copy-Info.plist"; path = "/Users/David/Documents/AppData/GithubRepos/protobuf-objc/src/runtime/UnitTests copy-Info.plist"; sourceTree = "<absolute>"; };
-		726B877F15E3C3C300D064DC /* libProtocolBuffersTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtocolBuffersTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BD8C0415FFAC3A0010D8DA /* UnitTests iOS.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTests iOS.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		726B877F15E3C3C300D064DC /* libProtocolBuffers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtocolBuffers.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		726B878315E3C3C300D064DC /* ProtocolBuffersTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ProtocolBuffersTouch-Prefix.pch"; path = "ProtocolBuffersTouch/ProtocolBuffersTouch-Prefix.pch"; sourceTree = "<group>"; };
 		726B878F15E3C3C300D064DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8B0444561469EFD500BB156C /* UnittestEmpty.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestEmpty.pb.h; path = Tests/UnittestEmpty.pb.h; sourceTree = "<group>"; };
@@ -200,6 +203,10 @@
 		8B0444661469F01800BB156C /* UnittestNoGenericServices.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestNoGenericServices.pb.m; path = Tests/UnittestNoGenericServices.pb.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ProtocolBuffers_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B39F8B6016D7069100BCF715 /* golden_message */ = {isa = PBXFileReference; lastKnownFileType = file; path = golden_message; sourceTree = "<group>"; };
+		B39F8B6116D7069100BCF715 /* golden_packed_fields_message */ = {isa = PBXFileReference; lastKnownFileType = file; path = golden_packed_fields_message; sourceTree = "<group>"; };
+		B39F8B6716D7076D00BCF715 /* libProtocolBuffers.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = libProtocolBuffers.xcconfig; sourceTree = "<group>"; };
+		B39F8B6B16D7082600BCF715 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		C57A9FE2125276A400726D16 /* UnittestCustomOptions.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnittestCustomOptions.pb.h; path = Tests/UnittestCustomOptions.pb.h; sourceTree = "<group>"; };
 		C57A9FE3125276A400726D16 /* UnittestCustomOptions.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnittestCustomOptions.pb.m; path = Tests/UnittestCustomOptions.pb.m; sourceTree = "<group>"; };
 		C586261F12668B9F00204EE1 /* Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bootstrap.h; sourceTree = "<group>"; };
@@ -296,7 +303,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63BD8C0915FFACF70010D8DA /* libProtocolBuffersTouch.a in Frameworks */,
+				63BD8C0915FFACF70010D8DA /* libProtocolBuffers.a in Frameworks */,
 				63BD8BFF15FFAC3A0010D8DA /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,8 +341,8 @@
 			children = (
 				D2AAC07E0554694100DB518D /* libProtocolBuffers.a */,
 				C5B03F76125179F30087887C /* UnitTests.octest */,
-				726B877F15E3C3C300D064DC /* libProtocolBuffersTouch.a */,
-				63BD8C0415FFAC3A0010D8DA /* UnitTests copy.octest */,
+				726B877F15E3C3C300D064DC /* libProtocolBuffers.a */,
+				63BD8C0415FFAC3A0010D8DA /* UnitTests iOS.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -343,12 +350,12 @@
 		0867D691FE84028FC02AAC07 /* ProtocolBuffers */ = {
 			isa = PBXGroup;
 			children = (
+				B39F8B6616D7075D00BCF715 /* Build Settings */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				C5B03E5312516AD70087887C /* Unit Tests */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
-				63BD8C0515FFAC3B0010D8DA /* UnitTests copy-Info.plist */,
 			);
 			name = ProtocolBuffers;
 			sourceTree = "<group>";
@@ -388,12 +395,31 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		B39F8B5F16D7068300BCF715 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B39F8B6016D7069100BCF715 /* golden_message */,
+				B39F8B6116D7069100BCF715 /* golden_packed_fields_message */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B39F8B6616D7075D00BCF715 /* Build Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B39F8B6B16D7082600BCF715 /* Base.xcconfig */,
+				B39F8B6716D7076D00BCF715 /* libProtocolBuffers.xcconfig */,
+			);
+			name = "Build Settings";
+			sourceTree = "<group>";
+		};
 		C5B03E5312516AD70087887C /* Unit Tests */ = {
 			isa = PBXGroup;
 			children = (
 				C5B040B212517E930087887C /* Protocol Buffers */,
 				C5B03FC112517A2B0087887C /* Tests */,
 				C5B03FC412517A540087887C /* Utilities */,
+				B39F8B5F16D7068300BCF715 /* Resources */,
 				C5B03F8312517A1A0087887C /* Main.m */,
 				C5B03F77125179F30087887C /* UnitTests-Info.plist */,
 			);
@@ -656,7 +682,7 @@
 			);
 			name = "UnitTests iOS";
 			productName = UnitTests;
-			productReference = 63BD8C0415FFAC3A0010D8DA /* UnitTests copy.octest */;
+			productReference = 63BD8C0415FFAC3A0010D8DA /* UnitTests iOS.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		726B877E15E3C3C300D064DC /* ProtocolBuffersTouch */ = {
@@ -673,7 +699,7 @@
 			);
 			name = ProtocolBuffersTouch;
 			productName = ProtocolBuffersTouch;
-			productReference = 726B877F15E3C3C300D064DC /* libProtocolBuffersTouch.a */;
+			productReference = 726B877F15E3C3C300D064DC /* libProtocolBuffers.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C5B03F75125179F30087887C /* UnitTests */ = {
@@ -718,7 +744,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ProtocolBuffers" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -749,6 +775,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39F8B6316D7069100BCF715 /* golden_message in Resources */,
+				B39F8B6516D7069100BCF715 /* golden_packed_fields_message in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +784,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39F8B6216D7069100BCF715 /* golden_message in Resources */,
+				B39F8B6416D7069100BCF715 /* golden_packed_fields_message in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -929,9 +959,11 @@
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F8B6716D7076D00BCF715 /* libProtocolBuffers.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/ProtocolBuffers.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -950,9 +982,11 @@
 		};
 		1DEB922008733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F8B6716D7076D00BCF715 /* libProtocolBuffers.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				DSTROOT = /tmp/ProtocolBuffers.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -968,17 +1002,15 @@
 		};
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F8B6B16D7082600BCF715 /* Base.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../ProtocolBuffers;
 				OBJROOT = Build;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = ../ProtocolBuffers/private;
-				PUBLIC_HEADERS_FOLDER_PATH = ../ProtocolBuffers;
 				SDKROOT = iphoneos;
 				SYMROOT = Build/Products;
 			};
@@ -986,16 +1018,14 @@
 		};
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F8B6B16D7082600BCF715 /* Base.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../ProtocolBuffers;
 				OBJROOT = Build;
 				OTHER_LDFLAGS = "-ObjC";
-				PRIVATE_HEADERS_FOLDER_PATH = ../ProtocolBuffers/private;
-				PUBLIC_HEADERS_FOLDER_PATH = ../ProtocolBuffers;
 				SDKROOT = iphoneos;
 				SYMROOT = Build/Products;
 			};
@@ -1017,7 +1047,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Foundation.framework/Headers/Foundation.h";
-				INFOPLIST_FILE = "UnitTests copy-Info.plist";
+				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = (
@@ -1027,7 +1057,7 @@
 					SenTestingKit,
 					"-all_load",
 				);
-				PRODUCT_NAME = "UnitTests copy";
+				PRODUCT_NAME = "UnitTests iOS";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "i386 x86_64";
@@ -1050,7 +1080,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Foundation.framework/Headers/Foundation.h";
-				INFOPLIST_FILE = "UnitTests copy-Info.plist";
+				INFOPLIST_FILE = "UnitTests-Info.plist";
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = (
@@ -1060,7 +1090,7 @@
 					SenTestingKit,
 					"-all_load",
 				);
-				PRODUCT_NAME = "UnitTests copy";
+				PRODUCT_NAME = "UnitTests iOS";
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALID_ARCHS = "i386 x86_64";
@@ -1071,12 +1101,9 @@
 		};
 		726B879E15E3C3C300D064DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F8B6716D7076D00BCF715 /* libProtocolBuffers.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					armv6,
-				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1091,25 +1118,19 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProtocolBuffers;
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
-				"VALID_ARCHS[sdk=*]" = "armv6 armv7";
 			};
 			name = Debug;
 		};
 		726B879F15E3C3C300D064DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39F8B6716D7076D00BCF715 /* libProtocolBuffers.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = (
-					armv7,
-					armv6,
-				);
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1118,11 +1139,10 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ProtocolBuffersTouch/ProtocolBuffersTouch-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ProtocolBuffers;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1133,6 +1153,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1162,6 +1183,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";

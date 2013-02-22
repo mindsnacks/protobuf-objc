@@ -1,0 +1,12 @@
+//
+//  Base.xcconfig
+//  ProtocolBuffers
+//
+//  Created by Andy Mroczkowski on 2/21/13.
+//
+//
+
+#include "Base.xcconfig"
+
+// Put headers in a place that is convenient for other libraries to find
+PUBLIC_HEADERS_FOLDER_PATH = include/$(PRODUCT_NAME)

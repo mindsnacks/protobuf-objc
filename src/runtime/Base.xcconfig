@@ -1,0 +1,11 @@
+//
+//  Base.xcconfig
+//  ProtocolBuffers
+//
+//  Created by Andy Mroczkowski on 2/21/13.
+//
+//
+
+
+// Xcode needs this to find archived headers if SKIP_INSTALL is set
+HEADER_SEARCH_PATHS = "$(OBJROOT)/UninstalledProducts/include" $(HEADER_SEARCH_PATHS)
